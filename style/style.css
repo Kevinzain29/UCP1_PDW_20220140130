@@ -1,0 +1,121 @@
+.navbar{
+    height: 80px;
+}
+
+.container-fluid{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.carousel-item img{
+    filter: brightness(1) contrast(1.2);
+    padding-bottom: 20px;
+
+}
+
+.headcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 25px;
+    color: white;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 25px;
+    background-color: gray;
+    color: white;
+}
+
+.card img{
+    height: 350px;  
+    width: 612px;
+    object-fit: cover;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-link{
+    color: pink;
+    padding-bottom: 15px;
+}
+
+.amv{
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.video{
+    margin-left: 30px;
+    margin-right: 30px; 
+}
+
+.description{
+    margin-top: 100px;
+    margin-right: 30px;
+    color: white;
+    padding-right: 30px;    
+}
+
+body{
+    background-color: black;
+}
+
+.headaccord{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 25px;
+    color: white; 
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+.accordion-button {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #dee2e6;
+}
+
+
+
+
+
+
+
+
+
+
+
